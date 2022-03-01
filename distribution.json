@@ -829,6 +829,20 @@
           }
         },
         {
+          "id": "optifine:OptiFine_1.16.5_HD_U_G8@jar",
+          "name": "Magnesium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 576000,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "mekanism:mekanism:10.1.2@jar",
           "name": "Mekanism",
           "type": "ForgeMod",
