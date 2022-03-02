@@ -416,7 +416,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 105000,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Blightfallclient-1.0.0.jar",
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
             "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
           }
         },
