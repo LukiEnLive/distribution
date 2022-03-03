@@ -11,7 +11,7 @@
       "id": "1-1.16.5",
       "name": "LukiEnLive Survie Moddé",
       "description": "Serveur Survie Moddé de LukiEnLive !",
-      "icon": "https://raw.githubusercontent.com/luki-39/distribution/main/assets/pdp.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "game40-dc02.ouiheberg.com:6064",
       "minecraftVersion": "1.16.5",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "a4209d5c33f5d0c3a6e0c71ce815f50a",
+                "MD5": "dfb086052f69c9ec4e204accd55fedf0",
                 "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
