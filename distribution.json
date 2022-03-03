@@ -371,16 +371,6 @@
           }
         },
         {
-          "id": "com.blamejared:appliedenergisticstweaker:1.0.0.15@jar",
-          "name": "Applied Energistics Tweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 16596,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/AppliedEnergisticsTweaker-1.0.0.15.jar",
-            "MD5": "d5911050b7e737d9b1fad68815941dd7"
-          }
-        },
-        {
           "id": "me.shedaniel:architectury:1.30.53@jar",
           "name": "Architectury",
           "type": "ForgeMod",
@@ -513,16 +503,6 @@
           }
         },
         {
-          "id": "com.blamejared:crafttweaker:7.1.2.499@jar",
-          "name": "CraftTweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2478519,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.499.jar",
-            "MD5": "1440c0a8ec106d3051fa01bacbc5650c"
-          }
-        },
-        {
           "id": "com.simibubi:create:v0.3.2g@jar",
           "name": "Create",
           "type": "ForgeMod",
@@ -550,16 +530,6 @@
             "size": 64683,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/createplus-1.16.4_v0.3.2.1.jar",
             "MD5": "81dc448dc1fb16b62955cdc068e1ed77"
-          }
-        },
-        {
-          "id": "com.blamejared:createtweaker:1.0.0.26@jar",
-          "name": "CreateTweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91060,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/CreateTweaker-1.0.0.26.jar",
-            "MD5": "8719805e413e0be1b7cdce558f29d8db"
           }
         },
         {
@@ -746,16 +716,6 @@
             "size": 828703,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/jei-1.16.5-7.7.1.150.jar",
             "MD5": "f0a81453320d5a6ae9864da3ab4099ae"
-          }
-        },
-        {
-          "id": "com.blamejared:jeitweaker:1.1.0.49@jar",
-          "name": "JEI Tweaker",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 151709,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/JEITweaker-1.16.5-1.1.0.49.jar",
-            "MD5": "6c7ebf18dc1c42f91ee503308fed1e2c"
           }
         },
         {
