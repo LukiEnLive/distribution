@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "947522574672338954",
+    "smallImageText": "RoadToNincraft",
+    "smallImageKey": "roadtonincraft"
   },
   "servers": [
     {
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "99d2ce2ec2eaac3dfea0a18dc3adb8fa",
+                "MD5": "89fd2cfedb6ffbb1550685269c395ef9",
                 "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
@@ -407,16 +407,6 @@
           "artifact": {
             "size": 1402482,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BetterCaves-Forge-1.16.4-1.1.2.jar",
-            "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
-          }
-        },
-        {
-          "id": "lightfallclient:lightfallclient:1.0.0@jar",
-          "name": "LightFallClient",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 105000,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
             "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
           }
         },
@@ -811,6 +801,16 @@
           }
         },
         {
+          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+unknown@jar",
+          "name": "LightfallClient",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10784,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
+            "MD5": "dedaa0790a322bd71fe8f1f792d77c7a"
+          }
+        },
+        {
           "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
           "name": "Magnesium Extras",
           "type": "ForgeMod",
@@ -831,20 +831,6 @@
           "artifact": {
             "size": 541088,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/magnesium-1.5.jar",
-            "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "optifine:OptiFine_1.16.5_HD_U_G8@jar",
-          "name": "Magnesium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 576000,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/OptiFine_1.16.5_HD_U_G8.jar",
             "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
           },
           "required": {
@@ -900,6 +886,20 @@
             "size": 110010,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/NetherPortalFix_1.16.3-7.2.1.jar",
             "MD5": "b5407bdd857e73236ff10d204f9fe8d5"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.16.5_HD_U_G8@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6046996,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
