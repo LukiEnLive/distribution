@@ -761,16 +761,6 @@
           }
         },
         {
-          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+unknown@jar",
-          "name": "LightfallClient",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10784,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
-            "MD5": "dedaa0790a322bd71fe8f1f792d77c7a"
-          }
-        },
-        {
           "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
           "name": "Magnesium Extras",
           "type": "ForgeMod",
