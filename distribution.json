@@ -2,16 +2,16 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "947522574672338954",
-    "smallImageText": "RoadToNincraft",
-    "smallImageKey": "roadtonincraft"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
       "id": "1-1.16.5",
       "name": "LukiEnLive Survie Moddé",
       "description": "Serveur Survie Moddé de LukiEnLive !",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/luki-39/distribution/main/assets/pdp.png",
       "version": "1.0.0",
       "address": "game40-dc02.ouiheberg.com:6064",
       "minecraftVersion": "1.16.5",
@@ -71,7 +71,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "dfb086052f69c9ec4e204accd55fedf0",
+                "MD5": "21e195b623bba4b5ffd5bfc92d0b687e",
                 "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
