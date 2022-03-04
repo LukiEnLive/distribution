@@ -351,26 +351,6 @@
           ]
         },
         {
-          "id": "tfar.ae2wt:ae2wtlib:0.3.3-1.16.5@jar",
-          "name": "AE2 Wireless Terminals",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 287421,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ae2wtlib-0.3.3-1.16.5.jar",
-            "MD5": "b3554160d064cd48163c0f59b75febcf"
-          }
-        },
-        {
-          "id": "appeng.core:appliedenergistics2:8.4.7@jar",
-          "name": "Applied Energistics 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4820914,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/appliedenergistics2-8.4.7.jar",
-            "MD5": "c89ee2036b32eaaf3aafc77ec7694524"
-          }
-        },
-        {
           "id": "me.shedaniel:architectury:1.30.53@jar",
           "name": "Architectury",
           "type": "ForgeMod",
@@ -796,46 +776,6 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "mekanism:mekanism:10.1.2@jar",
-          "name": "Mekanism",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11181433,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Mekanism-1.16.5-10.1.2.457.jar",
-            "MD5": "bcfbd6b2d63020cdbf42b9c2d643b956"
-          }
-        },
-        {
-          "id": "mekanism.additions:mekanismadditions:10.1.2@jar",
-          "name": "Mekanism: Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1078058,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/MekanismAdditions-1.16.5-10.1.2.457.jar",
-            "MD5": "694caa7a64411e7dcd85be4d40689ec1"
-          }
-        },
-        {
-          "id": "mekanism.generators:mekanismgenerators:10.1.2@jar",
-          "name": "Mekanism: Generators",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 985334,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/MekanismGenerators-1.16.5-10.1.2.457.jar",
-            "MD5": "8e0854f544510952dda70eb3c840638e"
-          }
-        },
-        {
-          "id": "mekanism.tools:mekanismtools:10.1.2@jar",
-          "name": "Mekanism: Tools",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 368033,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/MekanismTools-1.16.5-10.1.2.457.jar",
-            "MD5": "7742cf452e949b171884457cedabdce1"
           }
         },
         {
