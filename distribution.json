@@ -625,16 +625,6 @@
           }
         },
         {
-          "id": "dev.ftb.mods:ftbchunks:1605.3.2-build.115@jar",
-          "name": "FTB Chunks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 737811,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ftb-chunks-forge-1605.3.2-build.115.jar",
-            "MD5": "859cc1e34f4febac50e056393d4bc73e"
-          }
-        },
-        {
           "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
           "name": "FTB Library",
           "type": "ForgeMod",
@@ -642,16 +632,6 @@
             "size": 585125,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
             "MD5": "88b4c3497d1aa260481bd74e464a3d70"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
-          "name": "FTB Teams",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 171679,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
-            "MD5": "08d807589127eac26626d36ac36d1b21"
           }
         },
         {
