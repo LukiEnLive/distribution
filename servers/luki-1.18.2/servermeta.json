@@ -2,16 +2,11 @@
   "$schema": "file:///C:/Users/berlu/Desktop/test/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "luki (Minecraft 1.18.2)",
-    "description": "luki Running Minecraft 1.18.2 (Forge v40.1.20)",
-    "address": "localhost:25565",
-    "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-    },
-    "mainServer": false,
-    "autoconnect": false
+    "name": "LukiEnLive (1.18.2)",
+    "description": "Serveur Communautaire de LukiEnLive",
+    "address": "lukienlive.ouimc.fr",
+    "mainServer": true,
+    "autoconnect": true
   },
   "forge": {
     "version": "40.1.20"
