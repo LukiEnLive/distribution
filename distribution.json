@@ -8,7 +8,7 @@
       "description": "Serveur Communautaire de LukiEnLive",
       "icon": "https://raw.githubusercontent.com/luki-39/distribution/main/assets/pdp.png",
       "version": "1.0.0",
-      "address": "lukienlive.ouimc.fr",
+      "address": "game40-dc02.ouiheberg.com:6064",
       "minecraftVersion": "1.18.2",
       "mainServer": true,
       "autoconnect": true,

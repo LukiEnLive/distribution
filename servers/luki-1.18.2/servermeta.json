@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "LukiEnLive (1.18.2)",
     "description": "Serveur Communautaire de LukiEnLive",
-    "address": "lukienlive.ouimc.fr",
+    "address": "game40-dc02.ouiheberg.com:6064",
     "mainServer": true,
     "autoconnect": true
   },
