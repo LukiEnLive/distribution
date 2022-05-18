@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -8,174 +8,186 @@
   },
   "servers": [
     {
-      "id": "1-1.16.5",
-      "name": "LukiEnLive Survie Moddé",
-      "description": "Serveur Survie Moddé de LukiEnLive !",
-      "icon": "https://github.com/luki-39/distribution/blob/main/assets/pdp.png?raw=true",
+      "id": "luki-1.18.2",
+      "name": "luki (Minecraft 1.18.2)",
+      "description": "luki Running Minecraft 1.18.2 (Forge v40.1.20)",
+      "icon": null,
       "version": "1.0.0",
-      "address": "game40-dc02.ouiheberg.com:6064",
-      "minecraftVersion": "1.16.5",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.18.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.29",
-          "name": "Minecraft Forge (base jar)",
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.20",
+          "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 212290,
-            "MD5": "74cfc948e72f61fc96063e247526cb24",
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.29/forge-1.16.5-36.2.29.jar"
+            "size": 109652,
+            "MD5": "5b2edb80df5653b28b3553837e867cf4",
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.20/fmlcore-1.18.2-40.1.20.jar"
           },
           "subModules": [
             {
-              "id": "1.16.5-36.2.29",
+              "id": "1.18.2-40.1.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13577,
-                "MD5": "85a4e5f1ee6da0dbb573eda2792c4535",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/versions/1.16.5-forge-36.2.29/1.16.5-forge-36.2.29.json"
+                "size": 13696,
+                "MD5": "296f6dfe80d0c6ed9c5f43dbe95ff12b",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/versions/1.18.2-forge-40.1.20/1.18.2-forge-40.1.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.29:universal",
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.20",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 16293,
+                "MD5": "71b5867c7aa266700f586704eec9d0f5",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.20/javafmllanguage-1.18.2-40.1.20.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.20",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 4987,
+                "MD5": "a5bbfd7462608c0dc0901a466094a1a8",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.20/mclanguage-1.18.2-40.1.20.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.1.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2756382,
-                "MD5": "2960cc533d805d36e6444a983299ad88",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.29/forge-1.16.5-36.2.29-universal.jar"
+                "size": 2426842,
+                "MD5": "020210caf1864c867b67d786bf528263",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.20/forge-1.18.2-40.1.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.29:client",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 4214062,
-                "MD5": "ad1123a4040982aa66deddaef26e39ad",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.29/forge-1.16.5-36.2.29-client.jar"
+                "size": 5162005,
+                "MD5": "4fec7b621abdcb9c4c9965c209e97ea6",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.20/forge-1.18.2-40.1.20-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "artifact": {
-                "size": 11352644,
-                "MD5": "22619b316cd2c778ec6d45d9478d92fc",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+                "size": 16166247,
+                "MD5": "a0ce7261b4f77fd1319b05b95591bc68",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "artifact": {
-                "size": 9118806,
-                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "artifact": {
-                "size": 8428369,
-                "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
               },
               "subModules": []
             },
             {
-              "id": "org.ow2.asm:asm:9.1",
+              "id": "cpw.mods:securejarhandler:1.0.3",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 103266,
+                "MD5": "678ec8927eb25f596db7e620a716befc",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/cpw/mods/securejarhandler/1.0.3/securejarhandler-1.0.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.2",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 121790,
-                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+                "size": 122004,
+                "MD5": "8f184dce9b1bedc675d4a3640d43ddf0",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm/9.2/asm-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.1",
+              "id": "org.ow2.asm:asm-commons:9.2",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72641,
-                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+                "size": 72642,
+                "MD5": "3eb09775e1076eb0a085a4592faebc2a",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.1",
+              "id": "org.ow2.asm:asm-tree:9.2",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 52662,
-                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+                "size": 52660,
+                "MD5": "9c45524e94b19cc8b614b9e81ad544e2",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.1",
+              "id": "org.ow2.asm:asm-util:9.2",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 84679,
-                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+                "size": 84854,
+                "MD5": "8562ac2619220b948cef931285b1e13b",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.1",
+              "id": "org.ow2.asm:asm-analysis:9.2",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
                 "size": 34257,
-                "MD5": "f0e82941173b6049c03e8214ace70ecd",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+                "MD5": "e62aa59de96ae29c690c3521ea4b6359",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:8.1.3",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 126747,
-                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:grossjava9hacks:1.3.3",
-              "name": "Minecraft Forge (grossjava9hacks)",
-              "type": "Library",
-              "artifact": {
-                "size": 2113,
-                "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
               "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 76586,
-                "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -189,33 +201,43 @@
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:4.0.0",
+              "id": "net.minecraftforge:eventbus:5.0.3",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 42873,
-                "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:3.2.0",
+              "id": "net.minecraftforge:forgespi:4.0.10",
               "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 20172,
-                "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+                "size": 21869,
+                "MD5": "b4b4b87397040701bd74ad6cbb784954",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forgespi/4.0.10/forgespi-4.0.10.jar"
               }
             },
             {
-              "id": "net.minecraftforge:coremods:4.0.6",
+              "id": "net.minecraftforge:coremods:5.0.1",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 25453,
-                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
               }
             },
             {
@@ -229,33 +251,23 @@
               }
             },
             {
-              "id": "com.electronwill.night-config:core:3.6.3",
+              "id": "com.electronwill.night-config:core:3.6.4",
               "name": "Minecraft Forge (core)",
               "type": "Library",
               "artifact": {
-                "size": 199091,
-                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
-              "id": "com.electronwill.night-config:toml:3.6.3",
+              "id": "com.electronwill.night-config:toml:3.6.4",
               "name": "Minecraft Forge (toml)",
               "type": "Library",
               "artifact": {
-                "size": 31288,
-                "MD5": "615b8e62371c536f876764591990118d",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.12.1",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 732926,
-                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
@@ -279,36 +291,6 @@
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
-              "type": "Library",
-              "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
-              }
-            },
-            {
               "id": "net.minecrell:terminalconsoleappender:1.2.0",
               "name": "Minecraft Forge (terminalconsoleappender)",
               "type": "Library",
@@ -319,677 +301,285 @@
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "Minecraft Forge (jopt-simple)",
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
               "type": "Library",
               "artifact": {
-                "size": 78146,
-                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
-              "id": "org.spongepowered:mixin:0.8.4",
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
               "name": "Minecraft Forge (mixin)",
               "type": "Library",
               "artifact": {
-                "size": 1069391,
-                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
-              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
-              "name": "Minecraft Forge (nashorn-core-compat)",
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2194057,
-                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.20",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 238839,
+                "MD5": "f8e41ad938d3dd5d7a077e843d270ea1",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.20/fmlloader-1.18.2-40.1.20.jar"
               }
             }
           ]
         },
         {
-          "id": "me.shedaniel:architectury:1.30.53@jar",
+          "id": "dev.architectury:architectury:4.4.60@jar",
           "name": "Architectury",
           "type": "ForgeMod",
           "artifact": {
-            "size": 548960,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/architectury-1.30.53.jar",
-            "MD5": "c1edbb672b267be826a4001665e79ad0"
+            "size": 546303,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/architectury-4.4.60.jar",
+            "MD5": "196a106119312fc0935792b2ee49037e"
           }
         },
         {
-          "id": "artifacts:artifacts:1.16.5-2.10.4@jar",
+          "id": "artifacts:artifacts:1.18.2-4.0.7@jar",
           "name": "Artifacts",
           "type": "ForgeMod",
           "artifact": {
-            "size": 467569,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Artifacts-1.16.5-2.10.4.jar",
-            "MD5": "7e124d4d02aa34c6bce5701bad49168d"
+            "size": 497995,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/artifacts-1.18.2-4.0.7.jar",
+            "MD5": "02433dde0a5ad6734c3c5a6d8af7b2f3"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:bettercaves:1.16.4-1.1.2@jar",
-          "name": "YUNG's Better Caves",
+          "id": "net.blay09.mods:balm:3.0.3+0@jar",
+          "name": "Balm",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1402482,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BetterCaves-Forge-1.16.4-1.1.2.jar",
-            "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
+            "size": 614089,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/balm-3.0.3+0.jar",
+            "MD5": "9538184cdc66687702820da95aa2d6ef"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:betterdungeons:1.16.4-1.2.1@jar",
-          "name": "YUNG's Better Dungeons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 510439,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BetterDungeons-1.16.4-1.2.1.jar",
-            "MD5": "a51b4f9c3e0e9fbdb3be8751dd2fc24e"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.16.4-2.0.4@jar",
-          "name": "YUNG's Better Mineshafts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 289307,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BetterMineshafts-Forge-1.16.4-2.0.4.jar",
-            "MD5": "94a88366c2e6846b32c5df0a5f044d07"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.16.4-1.2.1@jar",
-          "name": "YUNG's Better Strongholds",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 541396,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BetterStrongholds-1.16.4-1.2.1.jar",
-            "MD5": "47c3af75b76034d5952c0df6440cd3e4"
-          }
-        },
-        {
-          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.477@jar",
+          "id": "biomesoplenty.core:biomesoplenty:1.18.2-16.0.0.109@jar",
           "name": "Biomes O' Plenty",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3651670,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar",
-            "MD5": "e9c62fa3fce0a36475bf6e4b5c43a542"
+            "size": 21244292,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/BiomesOPlenty-1.18.2-16.0.0.109-universal.jar",
+            "MD5": "c871cdbefa4dedfbc0d0af75352cddb2"
           }
         },
         {
-          "id": "com.limeshulkerbox:bmvsb:1.0.2@jar",
-          "name": "BMVSB",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7242,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/bmvsb-1.0.2.jar",
-            "MD5": "0dd0b181899b0de9a4e73057887a2242"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.darkhax:bookshelf:10.4.31@jar",
-          "name": "Bookshelf",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 316237,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.31.jar",
-            "MD5": "40daf0ad636c1ae6d954fc66c093c143"
-          }
-        },
-        {
-          "id": "me.shedaniel.clothconfig:cloth-config:4.14.54@jar",
-          "name": "Cloth Config v4 API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1458779,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/cloth-config-4.14.54-forge.jar",
-            "MD5": "b8d5fa1640934a2e90b94e4206e939cd"
-          }
-        },
-        {
-          "id": "com.blamejared:clumps:6.0.0.28@jar",
-          "name": "Clumps",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 18397,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/Clumps-6.0.0.28.jar",
-            "MD5": "0fdfe776ae513bd8a4c7396097ce42e9"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.connectivity:connectivity:2.4-1.16.5@jar",
-          "name": "Connectivity Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 53113,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/connectivity-2.4-1.16.5.jar",
-            "MD5": "1991b06777e738e93a904fd3525bde4e"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.simibubi:create:v0.3.2g@jar",
+          "id": "com.simibubi:create:0.4.1@jar",
           "name": "Create",
           "type": "ForgeMod",
           "artifact": {
-            "size": 11564279,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
-            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+            "size": 12060862,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/create-mc1.18.2_v0.4.1.jar",
+            "MD5": "2865bf7c262ac59dd83b2fb5f5bb4574"
           }
         },
         {
-          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
+          "id": "com.mrh0:createaddition:1.18.2-20220517a@jar",
           "name": "Create Crafts & Additions",
           "type": "ForgeMod",
           "artifact": {
-            "size": 834203,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
-            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
+            "size": 859642,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/createaddition-1.18.2-20220517a.jar",
+            "MD5": "65fa53d1340740d4801a70f272d7a46a"
           }
         },
         {
-          "id": "com.robocraft999:createplus:1.16.4_v0.3.2.1@jar",
-          "name": "Create Plus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64683,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/createplus-1.16.4_v0.3.2.1.jar",
-            "MD5": "81dc448dc1fb16b62955cdc068e1ed77"
-          }
-        },
-        {
-          "id": "azmalent.cuneiform:cuneiform:1.16.3-1.2.5@jar",
-          "name": "Cuneiform",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 102333,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/cuneiform-1.16.3-1.2.5.jar",
-            "MD5": "d614716daac7bcf5c79cb9e2308a16a6"
-          }
-        },
-        {
-          "id": "top.theillusivec4:curios:1.16.5-4.0.5.3@jar",
+          "id": "top.theillusivec4:curios:1.18.2-5.0.7.0@jar",
           "name": "Curios API",
           "type": "ForgeMod",
           "artifact": {
-            "size": 246281,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/curios-forge-1.16.5-4.0.5.3.jar",
-            "MD5": "15ff549e39f809bed3a751cf768fb72f"
+            "size": 270675,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/curios-forge-1.18.2-5.0.7.0.jar",
+            "MD5": "3fc00dd882d1287e55cd4dd3ff97c371"
           }
         },
         {
-          "id": "com.lilypuree:decorative_blocks:1.7.2@jar",
+          "id": "lilypuree.decorative_blocks:decorative_blocks:2.1.0@jar",
           "name": "Decorative Blocks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 576443,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/decorative_blocks-1.16.4-1.7.2.jar",
-            "MD5": "1b6222ecb3d24ef21b840ef0e5d98702"
+            "size": 467722,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/Decorative%20Blocks-forge-1.18.2-2.1.0.jar",
+            "MD5": "ee75de1cf90cb5e0496e05923b929e0a"
           }
         },
         {
-          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.5@jar",
+          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.8@jar",
           "name": "Dungeon Crawl",
           "type": "ForgeMod",
           "artifact": {
-            "size": 778769,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/DungeonCrawl-1.16.5-2.3.5.jar",
-            "MD5": "792db6c6e24834672cc272f68e7797cd"
+            "size": 772667,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/DungeonCrawl-1.18.2-2.3.8.jar",
+            "MD5": "48eeba9a374737b2df07a71cb4dfd2df"
           }
         },
         {
-          "id": "me.lambdaurora.lambdynlights:dynamiclightsreforged:mc1.16.5_v1.0.1@jar",
-          "name": "Dynamic Lights Reforged",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 122118,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/dynamiclightsreforged-mc1.16.5_v1.0.1.jar",
-            "MD5": "1cda780a90261f66a3a3b5dce12b903c"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "be.florens:expandability:2.0.1@jar",
+          "id": "be.florens:expandability:6.0.0@jar",
           "name": "ExpandAbility",
           "type": "ForgeMod",
           "artifact": {
-            "size": 43358,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/expandability-2.0.1-forge.jar",
-            "MD5": "bd9f79f1ae8a1b099c2bd09782ba9135"
+            "size": 42821,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/expandability-6.0.0.jar",
+            "MD5": "0b92f0c9512b25674e25a02ac6ef1d58"
           }
         },
         {
-          "id": "shadows.fastsuite:fastsuite:1.1.1@jar",
-          "name": "FastSuite",
+          "id": "com.telepathicgrunt.featurenbtdeadlockbegone:feature_nbt_deadlock_be_gone:2.0.0+1.18.2@jar",
+          "name": "Feature NBT Deadlock Be Gone",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10829,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/FastSuite-1.16.4-1.1.1.jar",
-            "MD5": "46672d6b456190e9d9b4a67641d42bac"
-          },
-          "required": {
-            "value": false,
-            "def": false
+            "size": 14792,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar",
+            "MD5": "affdfe5b304b5797ef61ebb814f41ec2"
           }
         },
         {
-          "id": "malte0811.ferritecore:ferritecore:2.1.0@jar",
-          "name": "Ferrite Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 108520,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/ferritecore-2.1.0-forge.jar",
-            "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "id": "com.jozufozu:flywheel:1.18-0.6.2@jar",
           "name": "Flywheel",
           "type": "ForgeMod",
           "artifact": {
-            "size": 420923,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
-            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+            "size": 1276722,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/flywheel-forge-1.18-0.6.2.jar",
+            "MD5": "19d3b10e071a7cb048eb06255aaf4003"
           }
         },
         {
-          "id": "com.feed_the_beast.mods:ftbbackups:2.1.2.2@jar",
-          "name": "FTB Backups",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 44027,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ftb-backups-2.1.2.2.jar",
-            "MD5": "4bf6828a6501cf79eddfd133de68c38f"
-          }
-        },
-        {
-          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
-          "name": "FTB Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 585125,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
-            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.hydrogen:helium:1.0@jar",
-          "name": "Helium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 71393,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/helium-1.0.jar",
-            "MD5": "d2983c50bea8a0bbc0724a9cfe33ea88"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "mcp.mobius:waila:1.10.11-B78_1.16.2@jar",
-          "name": "Waila",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 175464,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Hwyla-forge-1.10.11-B78_1.16.2.jar",
-            "MD5": "1bd70c1ad7614bb2df8c95a85ade97eb"
-          }
-        },
-        {
-          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
-          "name": "Iron Chests",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 258298,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
-            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:7.7.1.150@jar",
+          "id": "mezz.jei:jei:9.5.5.174@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 828703,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/jei-1.16.5-7.7.1.150.jar",
-            "MD5": "f0a81453320d5a6ae9864da3ab4099ae"
+            "size": 960546,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/jei-1.18.2-9.5.5.174.jar",
+            "MD5": "22adcd2e205f06e653019efd971b3327"
           }
         },
         {
-          "id": "org.jmt.mcmt:jmt_mcmt:0.22.87@jar",
-          "name": "JMT MCMT",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 179223,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/jmt_mcmt-1.16.5-0.22.87-modcore.jar",
-            "MD5": "b5fbb802a06fe2a56669faf4181d96ec"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:jmt_mcmt:1.16.5-0.22.87@jar",
-          "name": "Jmt_mcmt",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 178052,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/jmt_mcmt-1.16.5-0.22.87.jar",
-            "MD5": "7b714f318df4c0935bb0c42909e5338b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "me.steinborn:lazydfu:0.1.3@jar",
-          "name": "LazyDFU",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15258,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/lazydfu-0.1.3.jar",
-            "MD5": "fce7920ba6329d631da4025e9322e5e0"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+unknown@jar",
+          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+10@jar",
           "name": "LightfallClient",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10784,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/lightfallclient-1.0.0.jar",
-            "MD5": "dedaa0790a322bd71fe8f1f792d77c7a"
+            "size": 11127,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/lightfallclient-1.0.0.jar",
+            "MD5": "7c944da40f91ae17f3b2524ed3a9c07e"
           }
         },
         {
-          "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.3.1@jar",
-          "name": "Magnesium Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 91607,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/magnesium_extras-mc1.16.5_v1.3.1.jar",
-            "MD5": "c9206cfabde8ac176c7865c63507a4e0"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "me.jellysquid.mods.sodium.client:magnesium:1.5@jar",
-          "name": "Magnesium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 541088,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/magnesium-1.5.jar",
-            "MD5": "e399ec4581df33a5cb7a0d6a0450a08b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.blay09.mods:netherportalfix:7.2.1@jar",
+          "id": "net.blay09.mods:netherportalfix:9.0.0@jar",
           "name": "NetherPortalFix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 110010,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/NetherPortalFix_1.16.3-7.2.1.jar",
-            "MD5": "b5407bdd857e73236ff10d204f9fe8d5"
+            "size": 216339,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/netherportalfix-forge-1.18-9.0.0.jar",
+            "MD5": "e9587f944d74ff7a21bfb786d8ddfc41"
           }
         },
         {
-          "id": "net.optifine:optifine:1.16.5_HD_U_G8@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6046996,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/OptiFine_1.16.5_HD_U_G8.jar",
-            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.2@jar",
-          "name": "Patchouli",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 593114,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/Patchouli-1.16.4-53.2.jar",
-            "MD5": "8bc012f54bb0df32e53d4c92398e2524"
-          }
-        },
-        {
-          "id": "shadows.placebo:placebo:4.6.1@jar",
-          "name": "Placebo",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 145933,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/Placebo-1.16.5-4.6.1.jar",
-            "MD5": "ebf00ea62791def51c779ac0c3e7974c"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.telepathicgrunt.repurposedstructures:repurposed_structures:3.4.7+1.16.5@jar",
+          "id": "com.telepathicgrunt.repurposedstructures:repurposed_structures:5.1.8+1.18.2@jar",
           "name": "Repurposed Structures",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5576490,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/repurposed_structures_forge-3.4.7+1.16.5.jar",
-            "MD5": "688901495495db2e324b127b5a6f171b"
+            "size": 6208861,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/repurposed_structures_forge-5.1.8+1.18.2.jar",
+            "MD5": "fdc9ceadab731dbab5adbdb8c8a7f3f1"
           }
         },
         {
-          "id": "me.jellysquid.mods.lithium:roadrunner:1.4.0@jar",
-          "name": "Meep Meep! (Road Runner)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 366073,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/RoadRunner-mc1.16.5-1.4.0.jar",
-            "MD5": "49b2c086c91dac841ca6a99447b11791"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:savemystronghold:1.16.4-1.0@jar",
-          "name": "Save My Stronghold!",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182118,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/SaveMyStronghold-1.16.4-1.0.jar",
-            "MD5": "d982a1c9ab39242e153c56e87b37f774"
-          }
-        },
-        {
-          "id": "io.github.ultimateboomer:smoothboot:1.16.4-1.2.2@jar",
-          "name": "Smooth Boot",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 84744,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/smoothboot-forge-1.16.4-1.2.2.jar",
-            "MD5": "104ca76ce6b18b90fbfa4c58b3bbdfc2"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
-          "name": "Starlight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 101511,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/starlight-1.2.jar",
-            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "net.thegrimsey:stoneholm:1.2@jar",
-          "name": "Stoneholm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 218290,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/stoneholm-1.2.2.jar",
-            "MD5": "f45c0faacb5cd1b404dc6db9728633c0"
-          }
-        },
-        {
-          "id": "com.jaquadro.minecraft:storagedrawers:8.5.1@jar",
+          "id": "com.jaquadro.minecraft:storagedrawers:10.2.0@jar",
           "name": "Storage Drawers",
           "type": "ForgeMod",
           "artifact": {
-            "size": 575661,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.1.jar",
-            "MD5": "dc4993c727338dee8b1d7a8c4a6ee0b3"
+            "size": 578109,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/StorageDrawers-1.18.2-10.2.0.jar",
+            "MD5": "30ab52c47098c4c8d3c73d7d31b43941"
           }
         },
         {
-          "id": "me.jellysquid.mods.phosphor:sulfuric:1.0@jar",
-          "name": "Sulfuric",
+          "id": "terrablender.core:terrablender:1.18.2-1.1.0.99@jar",
+          "name": "TerraBlender",
           "type": "ForgeMod",
           "artifact": {
-            "size": 95323,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/optionaloff/sulfuric-1.1.jar",
-            "MD5": "8e67fba52bee2d6128937dd1b230cd29"
-          },
-          "required": {
-            "value": false,
-            "def": false
+            "size": 96768,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/TerraBlender-forge-1.18.2-1.1.0.99.jar",
+            "MD5": "f84521774c755161041c588aca74ffbc"
           }
         },
         {
-          "id": "azmalent.terraincognita:terraincognita:1.16.3-1.7.2@jar",
-          "name": "Terra Incognita",
+          "id": "com.zainjx:the_wild_update:1.3@jar",
+          "name": "The Wild Update 1.19 Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1021644,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/terraincognita-1.16.3-1.7.2.jar",
-            "MD5": "9dbfb6d26a7e210b51e2b2ac1e5a048d"
+            "size": 8869055,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/The_Wild_Update_Mod_V1.3_Minecraft_1.18.jar",
+            "MD5": "4dbc382940cf651cc3205f9de1cfe3af"
           }
         },
         {
-          "id": "com.hrznstudio:titanium:3.2.8.4@jar",
-          "name": "Titanium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 635229,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/titanium-1.16.5-3.2.8.4-10.jar",
-            "MD5": "7e11f28ccb59508e22be363dfc05400f"
-          }
-        },
-        {
-          "id": "net.xalcon:torchmaster:2.3.8@jar",
+          "id": "net.xalcon:torchmaster:18.1.0@jar",
           "name": "Torchmaster",
           "type": "ForgeMod",
           "artifact": {
-            "size": 94627,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/torchmaster-2.3.8.jar",
-            "MD5": "ca3a3912e74ee5e5b2e28d913ea8a3c7"
+            "size": 98651,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/torchmaster-18.1.0.jar",
+            "MD5": "8291330b4e2c9489bd9f2f0560bcfb7d"
           }
         },
         {
-          "id": "net.valhelsia:valhelsia_core:16.0.15@jar",
+          "id": "net.valhelsia.valhelsia_core.core:valhelsia_core:1.18.2-0.3.1@jar",
           "name": "Valhelsia Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 608118,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/valhelsia_core-16.0.15.jar",
-            "MD5": "39bfa258ac7c15b3787838df57b4d872"
+            "size": 622497,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/valhelsia_core-1.18.2-0.3.1.jar",
+            "MD5": "dd94c1d5c9932c41edb2be6982265de5"
           }
         },
         {
-          "id": "com.stal111:valhelsia_structures:1.16.5-0.1.6@jar",
+          "id": "com.stal111.valhelsia_structures.core:valhelsia_structures:1.18.2-0.1.0@jar",
           "name": "Valhelsia Structures",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1540395,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/valhelsia_structures-1.16.5-0.1.6.jar",
-            "MD5": "d51467d2ead99045afc9ba8d8e7691be"
-          }
-        },
-        {
-          "id": "net.darkhax:wawla:8.0.1@jar",
-          "name": "WAWLA",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31378,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/WAWLA-1.16.5-8.0.1.jar",
-            "MD5": "5547345e4e31b70dd1f7f69424da736c"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsapi:1.16.4-Forge-13@jar",
-          "name": "YUNG's API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 106058,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/YungsApi-1.16.4-Forge-13.jar",
-            "MD5": "d9bb57c12da921556bfd981c37f9a49a"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsbridges:1.16.4-1.0.1@jar",
-          "name": "YUNG's Bridges",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 80085,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/YungsBridges-Forge-1.16.4-1.0.1.jar",
-            "MD5": "1bf26f62e9be4eb07b91dab2d01edfe2"
-          }
-        },
-        {
-          "id": "com.yungnickyoung.minecraft:yungsextras:Forge-1.16.4-1.0@jar",
-          "name": "YUNG's Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64256,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/1-1.16.5/forgemods/required/YungsExtras-Forge-1.16.4-1.0.jar",
-            "MD5": "e27b8af5ec8192c9644dab2eb4606ac9"
+            "size": 1620690,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/valhelsia_structures-forge-1.18.2-0.1.0.jar",
+            "MD5": "3e204f5a4564512f8a7d467a7e790c15"
           }
         }
       ]
