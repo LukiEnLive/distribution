@@ -11,7 +11,7 @@
       "address": "game03-dc03.ouiheberg.com:2728",
       "minecraftVersion": "1.18.2",
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:fmlcore:1.18.2-40.1.20",
@@ -353,33 +353,23 @@
           ]
         },
         {
-          "id": "dev.architectury:architectury:4.4.60@jar",
+          "id": "dev.architectury:architectury:4.5.73@jar",
           "name": "Architectury",
           "type": "ForgeMod",
           "artifact": {
-            "size": 546303,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/architectury-4.4.60.jar",
-            "MD5": "196a106119312fc0935792b2ee49037e"
+            "size": 547939,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/architectury-4.5.73.jar",
+            "MD5": "b3b5de5e540b9fa6a5cc72fa88c88c06"
           }
         },
         {
-          "id": "artifacts:artifacts:1.18.2-4.0.7@jar",
-          "name": "Artifacts",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 497995,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/artifacts-1.18.2-4.0.7.jar",
-            "MD5": "02433dde0a5ad6734c3c5a6d8af7b2f3"
-          }
-        },
-        {
-          "id": "net.blay09.mods:balm:3.0.3+0@jar",
+          "id": "net.blay09.mods:balm:3.1.0+0@jar",
           "name": "Balm",
           "type": "ForgeMod",
           "artifact": {
-            "size": 614089,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/balm-3.0.3+0.jar",
-            "MD5": "9538184cdc66687702820da95aa2d6ef"
+            "size": 616070,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/balm-3.1.0+0.jar",
+            "MD5": "cf54f8bfaf08668225e2db7921f9522f"
           }
         },
         {
@@ -433,13 +423,13 @@
           }
         },
         {
-          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.8@jar",
+          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.9@jar",
           "name": "Dungeon Crawl",
           "type": "ForgeMod",
           "artifact": {
-            "size": 772667,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/DungeonCrawl-1.18.2-2.3.8.jar",
-            "MD5": "48eeba9a374737b2df07a71cb4dfd2df"
+            "size": 768299,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/DungeonCrawl-1.18.2-2.3.9.jar",
+            "MD5": "c613f43a87acfba55f9386dff0606760"
           }
         },
         {
@@ -450,6 +440,16 @@
             "size": 42821,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/expandability-6.0.0.jar",
             "MD5": "0b92f0c9512b25674e25a02ac6ef1d58"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:2.8.0@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 736093,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/fancymenu_forge_2.8.0_MC_1.18.2.jar",
+            "MD5": "bc4c794e1f3ff43fffd79657de9ffa50"
           }
         },
         {
@@ -473,23 +473,43 @@
           }
         },
         {
-          "id": "mezz.jei:jei:9.5.5.174@jar",
+          "id": "mezz.jei:jei:9.7.0.196@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 960546,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/jei-1.18.2-9.5.5.174.jar",
-            "MD5": "22adcd2e205f06e653019efd971b3327"
+            "size": 993101,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/jei-1.18.2-9.7.0.196.jar",
+            "MD5": "a04bb41217308191f9347e1d67fcfcd3"
           }
         },
         {
-          "id": "io.izzel.lightfall.client:lightfallclient:1.0.0+10@jar",
+          "id": "de.keksuccino:konkrete:1.3.3@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 197263,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/konkrete_forge_1.3.3_MC_1.18-1.18.1.jar",
+            "MD5": "895da356e6147e75eec5bfeaa2657e8b"
+          }
+        },
+        {
+          "id": "io.izzel.lightfall.client:lightfallclient:1.0.2+12@jar",
           "name": "LightfallClient",
           "type": "ForgeMod",
           "artifact": {
-            "size": 11127,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/lightfallclient-1.0.0.jar",
-            "MD5": "7c944da40f91ae17f3b2524ed3a9c07e"
+            "size": 11310,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/lightfallclient-1.0.2.jar",
+            "MD5": "119aa88a8204cb53f2e526ff98af04e2"
+          }
+        },
+        {
+          "id": "mod.lucky:lucky:1.18.2-13.1@jar",
+          "name": "Lucky Block",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1955578,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/lucky-block-forge-1.18.2-13.1.jar",
+            "MD5": "87376fe354dc59ec10bc9af5bec36184"
           }
         },
         {
@@ -503,33 +523,33 @@
           }
         },
         {
-          "id": "com.telepathicgrunt.repurposedstructures:repurposed_structures:5.1.8+1.18.2@jar",
+          "id": "com.telepathicgrunt.repurposedstructures:repurposed_structures:5.1.14+1.18.2@jar",
           "name": "Repurposed Structures",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6208861,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/repurposed_structures_forge-5.1.8+1.18.2.jar",
-            "MD5": "fdc9ceadab731dbab5adbdb8c8a7f3f1"
+            "size": 6217276,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/repurposed_structures_forge-5.1.14+1.18.2.jar",
+            "MD5": "b4db2f99a8fd570c5daaefa2fac2eaaa"
           }
         },
         {
-          "id": "com.jaquadro.minecraft:storagedrawers:10.2.0@jar",
+          "id": "com.jaquadro.minecraft:storagedrawers:10.2.1@jar",
           "name": "Storage Drawers",
           "type": "ForgeMod",
           "artifact": {
-            "size": 578109,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/StorageDrawers-1.18.2-10.2.0.jar",
-            "MD5": "30ab52c47098c4c8d3c73d7d31b43941"
+            "size": 578059,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/StorageDrawers-1.18.2-10.2.1.jar",
+            "MD5": "dbca0eeb2e7ed37cb585b6def632be4d"
           }
         },
         {
-          "id": "terrablender.core:terrablender:1.18.2-1.1.0.99@jar",
+          "id": "terrablender.core:terrablender:1.18.2-1.1.0.102@jar",
           "name": "TerraBlender",
           "type": "ForgeMod",
           "artifact": {
-            "size": 96768,
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/TerraBlender-forge-1.18.2-1.1.0.99.jar",
-            "MD5": "f84521774c755161041c588aca74ffbc"
+            "size": 99002,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/TerraBlender-forge-1.18.2-1.1.0.102.jar",
+            "MD5": "8145234063bb56848c90c2007b22eef9"
           }
         },
         {

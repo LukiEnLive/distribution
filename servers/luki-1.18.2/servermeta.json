@@ -6,7 +6,7 @@
     "description": "Serveur Communautaire de LukiEnLive",
     "address": "game03-dc03.ouiheberg.com:2728",
     "mainServer": true,
-    "autoconnect": true
+    "autoconnect": false,
   },
   "forge": {
     "version": "40.1.20"
