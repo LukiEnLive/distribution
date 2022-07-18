@@ -14,66 +14,66 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.20",
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.68",
           "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 109652,
-            "MD5": "5b2edb80df5653b28b3553837e867cf4",
-            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.20/fmlcore-1.18.2-40.1.20.jar"
+            "size": 109698,
+            "MD5": "c3273c2b323834689805ac4bc1d47dd4",
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.68/fmlcore-1.18.2-40.1.68.jar"
           },
           "subModules": [
             {
-              "id": "1.18.2-40.1.20",
+              "id": "1.18.2-40.1.68",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13696,
-                "MD5": "296f6dfe80d0c6ed9c5f43dbe95ff12b",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/versions/1.18.2-forge-40.1.20/1.18.2-forge-40.1.20.json"
+                "size": 14248,
+                "MD5": "97e9aab66e1b57b6cb5adf1b938eeb42",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/versions/1.18.2-forge-40.1.68/1.18.2-forge-40.1.68.json"
               }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.20",
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.68",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "artifact": {
                 "size": 16293,
-                "MD5": "71b5867c7aa266700f586704eec9d0f5",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.20/javafmllanguage-1.18.2-40.1.20.jar"
+                "MD5": "e2161f7fdccbdf9756772e16392f5b10",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.68/javafmllanguage-1.18.2-40.1.68.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.20",
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.68",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "artifact": {
                 "size": 4987,
-                "MD5": "a5bbfd7462608c0dc0901a466094a1a8",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.20/mclanguage-1.18.2-40.1.20.jar"
+                "MD5": "5d5952fa4b715a115b1e1f33477d7363",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.68/mclanguage-1.18.2-40.1.68.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.1.20:universal",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.68:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2426842,
-                "MD5": "020210caf1864c867b67d786bf528263",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.20/forge-1.18.2-40.1.20-universal.jar"
+                "size": 2518227,
+                "MD5": "ac03472441b84b0fb9c2089578f5c12e",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.68/forge-1.18.2-40.1.68-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.1.20:client",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.68:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 5162005,
-                "MD5": "4fec7b621abdcb9c4c9965c209e97ea6",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.20/forge-1.18.2-40.1.20-client.jar"
+                "size": 5100050,
+                "MD5": "d4d1f02174d26575ea04e34616d88265",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forge/1.18.2-40.1.68/forge-1.18.2-40.1.68-client.jar"
               },
               "subModules": []
             },
@@ -201,13 +201,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:4.0.10",
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
               "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 21869,
-                "MD5": "b4b4b87397040701bd74ad6cbb784954",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forgespi/4.0.10/forgespi-4.0.10.jar"
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
               }
             },
             {
@@ -331,6 +331,16 @@
               }
             },
             {
+              "id": "net.minecraftforge:JarJar:0.3.0",
+              "name": "Minecraft Forge (JarJar)",
+              "type": "Library",
+              "artifact": {
+                "size": 60569,
+                "MD5": "7733c150d5aa87caf75c34618d116619",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/JarJar/0.3.0/JarJar-0.3.0.jar"
+              }
+            },
+            {
               "id": "cpw.mods:bootstraplauncher:1.0.0",
               "name": "Minecraft Forge (bootstraplauncher)",
               "type": "Library",
@@ -341,13 +351,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.20",
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.68",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 238839,
-                "MD5": "f8e41ad938d3dd5d7a077e843d270ea1",
-                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.20/fmlloader-1.18.2-40.1.20.jar"
+                "size": 252646,
+                "MD5": "5207e8f6cff2a33657a8c89ebc4a95fe",
+                "url": "https://raw.githubusercontent.com/luki-39/distribution/main/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.68/fmlloader-1.18.2-40.1.68.jar"
               }
             }
           ]
@@ -493,6 +503,26 @@
           }
         },
         {
+          "id": "dev.latvian.mods.kubejs.create:kubejs_create:1802.2.2-build.26@jar",
+          "name": "KubeJS Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20121,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/kubejs-create-forge-1802.2.2-build.26.jar",
+            "MD5": "cd3feecd86c5d21d10940762c6be5636"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:1802.5.4-build.506@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1049213,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/kubejs-forge-1802.5.4-build.506.jar",
+            "MD5": "866846ac0c3c3ae5234af552f820d5da"
+          }
+        },
+        {
           "id": "io.izzel.lightfall.client:lightfallclient:1.0.2+12@jar",
           "name": "LightfallClient",
           "type": "ForgeMod",
@@ -530,6 +560,16 @@
             "size": 6217276,
             "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/repurposed_structures_forge-5.1.14+1.18.2.jar",
             "MD5": "b4db2f99a8fd570c5daaefa2fac2eaaa"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:1802.1.14-build.190@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1057541,
+            "url": "https://raw.githubusercontent.com/luki-39/distribution/main/servers/luki-1.18.2/forgemods/required/rhino-forge-1802.1.14-build.190.jar",
+            "MD5": "9b801cb94594d1f8a283521d10eb845e"
           }
         },
         {
